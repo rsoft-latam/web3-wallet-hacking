@@ -1,0 +1,22 @@
+{
+  "name": "eth-monitor-bot",
+  "version": "1.0.0",
+  "description": "A simple Ethereum bot to monitor a wallet balance and send funds when detected.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node drain.js"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "monitor",
+    "bot"
+  ],
+  "author": "TuNombre",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ethers": "^6.10.0",
+    "web3": "^1.10.0"
+  }
+}
